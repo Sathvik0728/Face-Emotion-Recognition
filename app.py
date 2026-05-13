@@ -1,6 +1,6 @@
 import cv2 # OpenCV for webcam access and face detection
 import numpy as np # For numerical operations, especially with image arrays
-from tensorflow.keras.models import load_model # To load our saved deep learning model
+from keras.models import load_model # To load our saved deep learning model
 import os # To check if files exist
 
 # --- Debugging CWD in VS Code (Keep this for now) ---
